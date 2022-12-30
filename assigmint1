@@ -1,0 +1,9 @@
+ var names = ["John", "Jane", "James", "Jill", "Jessica", "Bob", "Alice"];  
+ for (var i = 0; i < names.length; i++) {   
+   var name = names[i];    
+  if (name[0].toLowerCase() === "j") {   
+   console.log("Goodbye " + name);   
+} else {    
+    console.log("Hello " + name);   } }  
+
+
